@@ -771,9 +771,19 @@ h2{font-size:clamp(30px,4.4vw,50px)!important;line-height:1.06!important}
 
 <div style="position:relative;width:100%;overflow-x:hidden;background:#f5f2eb">
 
-  <nav style="position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:20px 48px;background:{{ navBg }};border-bottom:{{ navBorder }};box-shadow:{{ navShadow }};backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);transition:background .4s ease,color .4s ease,border .4s ease">
+  <div class="fox-top-banner" aria-label="FOX Digital Land">
+    <a class="fox-top-brand" href="https://foxintelligence.co.uk" target="_blank" rel="noopener" aria-label="Visit FOX Digital Land">
+      <img src="media/logos/logo-d.png" alt="FOX Intelligence">
+      <span class="fox-top-rule" aria-hidden="true"></span>
+      <span>DIGITAL LAND</span>
+    </a>
+    <span class="fox-top-line">Intelligence · Design · Discovery</span>
+    <a class="fox-top-link" href="https://foxintelligence.co.uk" target="_blank" rel="noopener">Explore FOX ↗</a>
+  </div>
+
+  <nav class="project-nav" style="position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:20px 48px;background:{{ navBg }};border-bottom:{{ navBorder }};box-shadow:{{ navShadow }};backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);transition:background .4s ease,color .4s ease,border .4s ease">
     <a href="#top" style="text-decoration:none;color:{{ navColor }};transition:color .4s ease;display:flex;align-items:center;gap:14px;flex:none">
-      <img src="media/logos/logo-a.png" alt="Netherhouse Mews" style="height:42px;width:auto;display:block;filter:drop-shadow(0 1px 2px rgba(0,0,0,0.25))">
+      <img class="project-nav-logo" src="media/logos/logo-a.png" alt="Netherhouse Mews" style="height:42px;width:auto;display:block;filter:drop-shadow(0 1px 2px rgba(0,0,0,0.25))">
       <span class="nav-title" style="display:block;font-family:'Space Grotesk',sans-serif;font-size:21px;font-weight:500;letter-spacing:0.01em;line-height:1.05;padding-left:14px;border-left:1px solid currentColor">Netherhouse Mews</span>
     </a>
     <div id="navlinks" style="display:flex;align-items:center;gap:24px;font-size:13px;letter-spacing:0.04em;color:{{ navColor }};transition:color .4s ease">
@@ -813,7 +823,7 @@ h2{font-size:clamp(30px,4.4vw,50px)!important;line-height:1.06!important}
     <div class="hero-copy" style="position:relative;z-index:2;flex:1;display:flex;flex-direction:column;justify-content:flex-end;padding:120px 48px 56px 48px">
       <div style="width:100%;max-width:1340px;margin:0 auto;animation:fadeUp 1s ease-out both;position:relative">
         <div style="font-family:'Inter',sans-serif;font-size:12px;letter-spacing:0.34em;text-transform:uppercase;color:rgba(255,255,255,0.82);margin-bottom:22px">Turnditch · Amber Valley · DE56 2EA</div>
-        <div style="position:relative"><h1 class="hero-h" style="font-family:'Space Grotesk',sans-serif;font-weight:500;color:#f5f2eb;font-size:90px;line-height:0.98;letter-spacing:-0.015em;max-width:14ch;text-wrap:balance">Netherhouse<br>Mews</h1><img class="hero-logo" src="media/logos/logo-a.png" alt="Netherhouse Mews" style="position:absolute;right:0;bottom:0;height:120px;width:auto;filter:drop-shadow(0 3px 8px rgba(0,0,0,0.45))"></div><p class="hero-description">Four distinctive homes.<br>One extraordinary valley setting.</p>
+        <div style="position:relative"><h1 class="hero-h" style="font-family:'Space Grotesk',sans-serif;font-weight:500;color:#f5f2eb;font-size:90px;line-height:0.98;letter-spacing:-0.015em;max-width:14ch;text-wrap:balance">Netherhouse<br>Mews</h1><div class="hero-agent-lockup"><img class="hero-logo hero-agent-logo" src="media/logos/fine-country-grey-transparent.png" alt="Fine &amp; Country"></div></div><p class="hero-description">Four distinctive homes.<br>One extraordinary valley setting.</p>
         <div class="hero-actions"><a class="hero-explore" href="#masterplan">Explore the masterplan <span aria-hidden="true">↗</span></a><button class="hero-film" sc-camel-on-click="{{ playVideo }}"><span aria-hidden="true">▷</span> Watch the story</button></div>
         <div class="hero-tools"><span class="hero-credit">Architectural visualisation</span><button type="button" data-hero-toggle="true" aria-label="Pause hero video">Pause video</button></div>
       </div>
@@ -851,7 +861,7 @@ h2{font-size:clamp(30px,4.4vw,50px)!important;line-height:1.06!important}
       <p style="margin-top:28px;font-size:19px;font-weight:300;color:#5a5750;max-width:42ch">An exceptional residential opportunity — four architect-designed barn-form homes on a 1.57-acre village-edge site above the Ecclesbourne Valley, on the edge of Turnditch.</p>
       <div style="display:flex;gap:14px;margin-top:38px">
         <a href="#bids" style="text-decoration:none;background:#A06F47;color:#f5f2eb;padding:16px 28px;border-radius:4px;font-size:14px;letter-spacing:0.04em;font-weight:500">Request brochure</a>
-        <a href="#bids" style="text-decoration:none;color:#252827;border:1px solid #cdc5b6;padding:16px 28px;border-radius:4px;font-size:14px;letter-spacing:0.04em;font-weight:500">Contact the promoter</a>
+        <a href="#bids" style="text-decoration:none;color:#252827;border:1px solid #cdc5b6;padding:16px 28px;border-radius:4px;font-size:14px;letter-spacing:0.04em;font-weight:500">Contact the F&amp;C Agent</a>
       </div>
     </div>
     <div style="position:relative;background:url(&quot;media/cgi/aerial-hero.webp&quot;) center/cover no-repeat"></div>
@@ -1293,7 +1303,7 @@ h2{font-size:clamp(30px,4.4vw,50px)!important;line-height:1.06!important}
           </div>
 
           <h3 style="font-family:'Space Grotesk',sans-serif;font-weight:500;font-size:30px;color:#f5f2eb;margin:44px 0 12px">Bid Process &amp; Assumptions</h3>
-          <p style="font-size:15px;font-weight:300;color:#b8b1a2;line-height:1.75;max-width:44ch">Bids for the site should be submitted electronically with the subject heading <strong style="font-weight:600;color:#c9b27e">‘Nether House Farm, Turnditch’</strong> to the Promoter via the contacts opposite.</p>
+          <p style="font-size:15px;font-weight:300;color:#b8b1a2;line-height:1.75;max-width:44ch">Bids for the site should be submitted electronically with the subject heading <strong style="font-weight:600;color:#c9b27e">‘Nether House Farm, Turnditch’</strong> to the F&amp;C Agent via the contact details opposite.</p>
 
           <div style="margin-top:40px;display:flex;align-items:center;gap:20px;flex-wrap:wrap">
             <img src="media/logos/logo-c.png" alt="Netherhouse Mews" style="height:120px;width:auto;display:block;filter:drop-shadow(0 3px 6px rgba(0,0,0,0.55)) drop-shadow(0 -1px 0.5px rgba(255,244,214,0.18))">
@@ -1307,36 +1317,24 @@ h2{font-size:clamp(30px,4.4vw,50px)!important;line-height:1.06!important}
               <span style="width:40px;height:40px;border-radius:50%;border:1.5px solid rgba(182,154,99,0.6);display:flex;align-items:center;justify-content:center;flex:none;color:#c9b27e"><svg width="19" height="19" sc-camel-view-box="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v5M12 16.5v.5"></path></svg></span>
               <h3 style="font-family:'Space Grotesk',sans-serif;font-weight:500;font-size:30px;color:#f5f2eb;margin:0">Important Notice</h3>
             </div>
-            <p style="font-size:14px;font-weight:300;color:#aba593;line-height:1.8;margin-bottom:16px">Site visits are not permitted without prior appointment which shall be made with the Promoter – see contact details opposite. Any agreed site visits are entirely at the prospective purchasers’ risk and neither the Promoter nor the landowners accept any liability arising from such visits.</p>
+            <p style="font-size:14px;font-weight:300;color:#aba593;line-height:1.8;margin-bottom:16px">Site visits are not permitted without prior appointment, which shall be arranged with the F&amp;C Agent – see contact details opposite. Any agreed site visits are entirely at the prospective purchasers’ risk and neither the F&amp;C Agent nor the landowners accept any liability arising from such visits.</p>
           <p style="font-size:14px;font-weight:300;color:#aba593;line-height:1.8;margin-bottom:16px">No engagement or consultation is to take place with the landowners, planning authority, parish council or other relevant body or consultee regarding the site.</p>
           <p style="font-size:14px;font-weight:300;color:#aba593;line-height:1.8;margin-bottom:16px">Any plans within these particulars are not to scale.</p>
-          <p style="font-size:14px;font-weight:300;color:#aba593;line-height:1.8;margin-bottom:16px">Any particulars or other information set out in these particulars are general in nature and shall not be treated as a statement of fact. These particulars are not intended to form any offer or contract. All bids are submitted on a subject to contract basis and will be considered by the Promoter and the landowners at their absolute discretion. The Promoter and the landowners reserve the right to not accept any offer howsoever made.</p>
-          <p style="font-size:14px;font-weight:300;color:#aba593;line-height:1.8">Neither the Promoter, the landowners nor any person acting on their behalf make any statement of fact, representation or warranty as to the accuracy or completeness of the information set out herein. Prospective purchasers must satisfy themselves as to the accuracy of any matters contained within these particulars.</p>
+          <p style="font-size:14px;font-weight:300;color:#aba593;line-height:1.8;margin-bottom:16px">Any particulars or other information set out in these particulars are general in nature and shall not be treated as a statement of fact. These particulars are not intended to form any offer or contract. All bids are submitted on a subject to contract basis and will be considered by the F&amp;C Agent and the landowners at their absolute discretion. The F&amp;C Agent and the landowners reserve the right not to accept any offer howsoever made.</p>
+          <p style="font-size:14px;font-weight:300;color:#aba593;line-height:1.8">Neither the F&amp;C Agent, the landowners nor any person acting on their behalf makes any statement of fact, representation or warranty as to the accuracy or completeness of the information set out herein. Prospective purchasers must satisfy themselves as to the accuracy of any matters contained within these particulars.</p>
           </div>
 
           <div style="margin-top:44px;display:flex;flex-direction:column;flex:1">
             <h3 style="font-family:'Space Grotesk',sans-serif;font-weight:400;font-size:38px;line-height:1.05;letter-spacing:-0.015em;color:#f5f2eb">Register your interest</h3>
-            <p style="margin-top:14px;font-size:16px;font-weight:300;color:#ada698;max-width:48ch;line-height:1.7">For further information, access to the technical reports or to register your interest, please contact the Promoter.</p>
+            <p style="margin-top:14px;font-size:16px;font-weight:300;color:#ada698;max-width:48ch;line-height:1.7">For further information, access to the technical reports or to register your interest, please contact the F&amp;C Agent.</p>
+            <img class="interest-agent-logo" src="media/logos/fine-country-grey-transparent.png" alt="Fine &amp; Country">
             <div style="margin-top:24px;display:flex;flex-wrap:wrap;gap:14px">
-            <div style="flex:1 1 220px;display:flex;align-items:center;gap:14px;background:rgba(255,255,255,0.035);border:1px solid rgba(255,255,255,0.11);border-radius:12px;padding:15px 18px">
+            <div style="flex:1 1 100%;display:flex;align-items:center;gap:14px;background:rgba(255,255,255,0.035);border:1px solid rgba(255,255,255,0.11);border-radius:12px;padding:18px">
               <span style="width:38px;height:38px;border-radius:9px;background:rgba(182,154,99,0.14);border:1px solid rgba(182,154,99,0.28);display:flex;align-items:center;justify-content:center;flex:none;color:#c9b27e"><svg width="19" height="19" sc-camel-view-box="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.4 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"></path></svg></span>
               <div style="min-width:0">
-                <div style="font-family:'Inter',sans-serif;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#c9b27e;margin-bottom:4px">Mitchell Shore</div>
-                <a href="tel:07521319008" style="font-size:17px;color:#f5f2eb;text-decoration:none;word-break:break-word">07521 319008</a>
-              </div>
-            </div>
-            <div style="flex:1 1 220px;display:flex;align-items:center;gap:14px;background:rgba(255,255,255,0.035);border:1px solid rgba(255,255,255,0.11);border-radius:12px;padding:15px 18px">
-              <span style="width:38px;height:38px;border-radius:9px;background:rgba(182,154,99,0.14);border:1px solid rgba(182,154,99,0.28);display:flex;align-items:center;justify-content:center;flex:none;color:#c9b27e"><svg width="19" height="19" sc-camel-view-box="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.4 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"></path></svg></span>
-              <div style="min-width:0">
-                <div style="font-family:'Inter',sans-serif;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#c9b27e;margin-bottom:4px">Gavin Samra</div>
-                <a href="tel:07722487427" style="font-size:17px;color:#f5f2eb;text-decoration:none;word-break:break-word">07722 487427</a>
-              </div>
-            </div>
-            <div style="flex:1 1 220px;display:flex;align-items:center;gap:14px;background:rgba(255,255,255,0.035);border:1px solid rgba(255,255,255,0.11);border-radius:12px;padding:15px 18px">
-              <span style="width:38px;height:38px;border-radius:9px;background:rgba(182,154,99,0.14);border:1px solid rgba(182,154,99,0.28);display:flex;align-items:center;justify-content:center;flex:none;color:#c9b27e"><svg width="19" height="19" sc-camel-view-box="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.4 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"></path></svg></span>
-              <div style="min-width:0">
-                <div style="font-family:'Inter',sans-serif;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#c9b27e;margin-bottom:4px">Aliks Galstjans</div>
-                <a href="tel:0798860559" style="font-size:17px;color:#f5f2eb;text-decoration:none;word-break:break-word">07988 60559</a>
+                <div style="font-family:'Inter',sans-serif;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#c9b27e;margin-bottom:4px">Anthony · Fine &amp; Country</div>
+                <a href="tel:07726314580" style="font-size:17px;color:#f5f2eb;text-decoration:none;word-break:break-word">07726 314580</a>
+                <a href="mailto:anthony.taylor@fineandcountry.com" style="display:block;margin-top:5px;font-size:14px;color:#c9b27e;text-decoration:none;overflow-wrap:anywhere">anthony.taylor@fineandcountry.com</a>
               </div>
             </div>
             </div>
@@ -1378,17 +1376,15 @@ h2{font-size:clamp(30px,4.4vw,50px)!important;line-height:1.06!important}
 
 
   <!-- ===================== FOX DESIGN INTELLIGENCE : BRANDING BANNER ===================== -->
-  <div style="background:#171918;border-top:1px solid rgba(182,154,99,0.12);padding:14px 48px;color:#a7afa0">
-    <div class="fox-footer-grid" style="width:100%;max-width:1340px;margin:0 auto;display:grid;grid-template-columns:auto 1fr auto;gap:14px 32px;align-items:center">
-      <div style="display:flex;align-items:center;gap:18px;min-width:0">
-        <img src="media/logos/logo-d.png" alt="FOX Intelligence" style="height:24px;width:auto;max-width:none;flex-shrink:0;display:block;object-fit:contain">
-        <span style="width:1px;height:22px;background:rgba(182,154,99,0.55);flex:none"></span>
-        <span style="font-family:'JetBrains Mono',monospace;font-size:0.7rem;letter-spacing:0.14em;text-transform:uppercase;color:#6f7968;white-space:nowrap">Digital ID · Land Branding</span>
-      </div>
-      <a href="https://foxintelligence.co.uk" target="_blank" rel="noopener" style="justify-self:center;display:inline-flex;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace;font-size:0.7rem;letter-spacing:0.14em;text-transform:uppercase;color:#6f7968;text-decoration:none;white-space:nowrap;transition:color .2s ease" style-hover="color:#f5f2eb"><span style="flex-shrink:0;display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:999px;border:1px solid rgba(182,154,99,0.4);color:#b69a63"><svg width="13" height="13" sc-camel-view-box="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.6 2.6 2.6 15 0 18M12 3c-2.6 2.6-2.6 15 0 18"></path></svg></span>www.foxintelligence.co.uk</a>
-      <a href="mailto:info@foxatlas.co.uk" style="justify-self:end;font-family:'JetBrains Mono',monospace;font-size:0.7rem;letter-spacing:0.14em;text-transform:uppercase;color:#6f7968;text-decoration:none;white-space:nowrap;transition:color .25s ease" style-hover="color:#f5f2eb">info@foxatlas.co.uk</a>
+  <footer class="fox-closing-banner">
+    <div class="fox-footer-banner">
+      <a class="fox-footer-brand" href="https://foxintelligence.co.uk" target="_blank" rel="noopener"><img src="media/logos/logo-d.png" alt="FOX Intelligence"><span>Digital Land</span></a>
+      <p>Intelligence · Design · Discovery</p>
+      <div class="fox-banner-contact"><a href="mailto:info@foxatlas.co.uk">info@foxatlas.co.uk</a><a href="https://foxintelligence.co.uk" target="_blank" rel="noopener">foxintelligence.co.uk ↗</a></div>
     </div>
-  </div>
+    <div class="fox-footer-project"><div><strong>Netherhouse Mews</strong><span>Turnditch · Amber Valley · Derbyshire</span></div><p>Architecture &amp; planning by <strong>EMPERUS</strong><br>Digital identity &amp; visual branding by <strong>FOX Digital Land</strong></p></div>
+    <div class="fox-footer-bottom"><span>© 2026 FOX Digital Land Ltd. All rights reserved.</span><span>Powered by FOX Intelligence · Presented by FOX Atlas</span></div>
+  </footer>
 </div>
 </x-dc>
 <script type="text/x-dc" data-dc-script="" data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440,&quot;height&quot;:900},&quot;heroVariant&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;cinematic&quot;,&quot;editorial&quot;],&quot;default&quot;:&quot;cinematic&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;showDataRoom&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;}}">
@@ -1438,7 +1434,7 @@ class Component extends DCLogic {
   ];
 
   team = [
-    { role:'Land Promoter', name:'The Promoter', note:'Site assembly, promotion & disposal', mark:'media/logos/logo-c.png', markW:'128px', markH:'36px', nameA:'', nameB:'' },
+    { role:'F&C Agent', name:'Fine & Country', note:'Sales enquiries, viewings & offers', mark:'media/logos/fine-country-grey-transparent.png', markW:'150px', markH:'75px', nameA:'Fine & Country', nameB:'' },
     { role:'Architecture', name:'Emperus Architecture', note:'Architecture, space planning & technical design', mark:(window.__resources&&window.__resources.emperusGold)||'uploads/emperus-gold.png', markW:'44px', markH:'44px', nameA:'Emperus', nameB:'Architecture', url:'https://www.emperusarchitecture.co.uk/' },
     { role:'Planning Consultant', name:'Stock Planning', note:'Planning strategy & consent secured', mark:(window.__resources&&window.__resources.stockGold)||'uploads/stock-gold.png', markW:'107px', markH:'37px', nameA:'', nameB:'', url:'https://stockplanning.co.uk/' },
   ];
@@ -1855,7 +1851,7 @@ class Component extends DCLogic {
       heroCinematic: variant === 'cinematic',
       heroEditorial: variant === 'editorial',
       navScrolled: this.state.navScrolled,
-      navBg: this.state.navScrolled ? 'rgba(37,40,39,0.97)' : 'rgba(37,40,39,0.80)',
+      navBg: this.state.navScrolled ? 'rgba(37,40,39,0.84)' : 'rgba(37,40,39,0.58)',
       navColor: '#f5f2eb',
       navBorder: this.state.navScrolled ? '1px solid rgba(182,154,99,0.45)' : '1px solid rgba(182,154,99,0.28)',
       navShadow: this.state.navScrolled ? '0 10px 34px -14px rgba(0,0,0,0.5)' : 'none',
