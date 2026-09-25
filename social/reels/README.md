@@ -41,3 +41,6 @@ python3 social/reels/render_reels.py
 ```
 
 GitHub Actions also renders the full set and uploads a ZIP artifact automatically.
+
+
+Renderer status: production campaign configured.
