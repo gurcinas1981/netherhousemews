@@ -1,0 +1,48 @@
+{
+  "project": "Netherhouse Mews",
+  "site": "Nether House Farm, Hillcliff Lane, Turnditch, Belper DE56 2EA",
+  "location": "Turnditch, Amber Valley, Derbyshire",
+  "planning_reference": "AVA/2025/0519",
+  "planning_status": "Full planning permission granted",
+  "decision_date": "2 March 2026",
+  "local_authority": "Amber Valley Borough Council",
+  "site_area": "0.64 ha / 1.57 acres",
+  "total_gia": "923 m² / approx. 9,939 sq ft",
+  "units": "4 detached five-bedroom houses",
+  "garages": "4 double garages",
+  "bng": "38.2% biodiversity net gain secured on-site",
+  "house_types": [
+    {"name":"The Hillside","plots":"1 & 2","gia":"243.5 m² / 2,621 sq ft","accommodation":"5 bedrooms + office + cinema"},
+    {"name":"The Meadow","plots":"3","gia":"205.1 m² / 2,208 sq ft","accommodation":"5 bedrooms + office"},
+    {"name":"The Ridge","plots":"4","gia":"231.3 m²","accommodation":"5 bedrooms + office + cinema"}
+  ],
+  "team": {
+    "sales_agent": "Fine & Country",
+    "agent_contact": "Anthony Taylor",
+    "telephone": "07726 314580",
+    "email": "anthony.taylor@fineandcountry.com",
+    "architecture": "Emperus Architecture",
+    "planning_consultant": "Stock Planning",
+    "digital_presentation": "FOX Digital Land"
+  },
+  "brand": {
+    "charcoal": "#252827",
+    "gold": "#B69A63",
+    "cream": "#F5F2EB",
+    "rust": "#A06F47"
+  },
+  "reels": [
+    "01 Project Story",
+    "02 Redevelopment Story",
+    "03 Masterplan",
+    "04 The Hillside Overview",
+    "05 Plot 1",
+    "06 Plot 2",
+    "07 The Meadow / Plot 3",
+    "08 The Ridge / Plot 4",
+    "09 Planning Approval",
+    "10 Biodiversity & Landscape",
+    "11 Location",
+    "12 Fine & Country Contact"
+  ]
+}
