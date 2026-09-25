@@ -1,0 +1,28 @@
+name: Render Netherhouse Mews Reels
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'social/reels/**'
+      - '.github/workflows/render-netherhouse-reels.yml'
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+      - name: Render 12 reels
+        run: python3 social/reels/render_reels.py
+      - name: Upload reel package
+        uses: actions/upload-artifact@v4
+        with:
+          name: netherhouse-mews-12-reels
+          path: social/reels/output/
+          if-no-files-found: error
+          retention-days: 30
